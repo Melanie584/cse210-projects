@@ -1,0 +1,20 @@
+
+
+while (guess != magicNumber)
+{   
+    Console.Write("What is your guess? ");
+    guess = int.Parse(Console.Readline());
+
+    if (magicNumber > guess)
+    {
+        Console.WriteLine("Higher");
+    }
+    else if (magicNumber < guess)
+    {
+        Console.WriteLine("Lower");
+    }
+    else
+    {
+        Console.WriteLine("Lower");
+    }
+}
