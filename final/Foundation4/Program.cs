@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Foundation4 World!");
+        Activity testActivity = new Activity("03 Nov 2022", 30);
+
+        Console.WriteLine();
+        Console.WriteLine(testActivity.GetSummary());
     }
 }
