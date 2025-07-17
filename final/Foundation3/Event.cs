@@ -1,5 +1,3 @@
-using System.Security.Principal;
-
 public class Event
 {
     private string title;

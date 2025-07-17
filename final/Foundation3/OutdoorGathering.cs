@@ -10,6 +10,6 @@ public class OutdoorGathering : Event
 
     public override string GetFullDetails()
     {
-        return $"{base.GetFullDetails()}\nType: Gathering\nWeather Forecast: {_weather}\n";
+        return $"{base.GetFullDetails()}\nType: Outdoor Gathering\nWeather Forecast: {_weather}\n";
     }
 }
